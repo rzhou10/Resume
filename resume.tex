@@ -1,16 +1,16 @@
 \documentclass[10pt,letterpaper]{moderncv}
 \moderncvtheme[blue]{classic}
-\usepackage[scale=0.7,margin=0.55in]{geometry}
+\usepackage[scale=0.7,margin=0.5in]{geometry}
 
 \name{Renjie}{Zhou}
 \email{rzhou10@gmail.com}
 \phone[mobile]{609-933-0310}
 \address{}{Lawrenceville, NJ, 08648}
-\homepage{https://rzhou10.github.io}
+\homepage{rzhou10.github.io}
 \social[linkedin]{rzhou10}
 \social[github]{rzhou10}
 
-\vspace*{-9mm}
+\vspace*{-15mm}
 
 \begin{document}
 
@@ -20,7 +20,13 @@
 \sethintscolumntowidth{mmm yyyy -- mmm y}
 
 \section{Education}
-\cventry{Aug 2014 - May 2019}{B.E. Computer Engineering}{Stevens Institute of Technology}{Hoboken, NJ}{}{}
+\cventry{Aug 2014 - May 2019}{B.E. Computer Engineering}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+	\begin{itemize}
+        \item IEEE student branch
+        \item Stevens Computer Science Club (SCSC)
+        \item Society of Asian Scientists and Engineers (SASE)
+	\end{itemize}
+}
 
 \section{Skills}
 \cvitem{Tools/Technology}{Git, Visual Studio Code, LaTeX, Visual Studio, Windows, Ubuntu}
@@ -33,7 +39,6 @@
     \item Participated in Scrum meetings to keep track of the overall progress.
     \item Utilized web APIs to allow access to MedAZ's website data.
     \item Implemented the Dapper to store/retrieve data, which resulted in a faster and better performance of the system.
-    \item Replaced logic within table functions with Dapper methods.
 \end{itemize}}
 
 \cventry{Jul 2017 - Aug 2017}{Developer Intern}{MedAZ.net}{Princeton Junction, NJ}{}{
@@ -57,6 +62,11 @@
 \end{itemize}}
 
 \section{Projects}
+\cventry{Sept 2018 - May 2019}{\href{https://github.com/SatyaSujitPasupuleti/Remedics}{Remedics}}{React, MySQL, Node.js}{Stevens Institute of Technology}{}{
+    \begin{itemize}
+    \item Sends a questionnaire to patients to record their current health status
+    \item Allows doctors to personalize questionnaire by changing the type of questions needed.
+\end{itemize}}
 \cventry{Feb 2019 - Apr 2019}{\href{https://github.com/chloequinto/SSW_555_Project}{GEDCOM parser}}{Python}{Stevens Institute of Technology}{}{
     \begin{itemize}
     \item Parses a GEDCOM file to display information about a family tree, such as living people, and catch errors, such as incorrect dates
@@ -74,9 +84,4 @@
     \item Allows for increasing and replenishing health.
 \end{itemize}}
 
-\section{Extracurriculars}
-\cvitem{}{\begin{itemize}
-    \item Stevens Computer Science Club
-    \item IEEE Student Branch
-\end{itemize}}
 \end{document}
