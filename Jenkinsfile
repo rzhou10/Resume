@@ -10,7 +10,7 @@ pipeline {
       }
     }
 
-    stage('Move to website'){
+    stage('Move to website repo'){
       steps{
         mv resume.pdf ~/Documents/rzhou10.github.io/src/pdfs
         cd ../rzhou10.github.io
@@ -21,7 +21,7 @@ pipeline {
     stage('Deploy website'){
       steps{
         bash deploy.sh
-        echo ''
+        echo 'Deployed website'
       }
     }
   }
