@@ -1,6 +1,7 @@
 \documentclass[10pt,letterpaper]{moderncv}
 \moderncvtheme[blue]{classic}
 \usepackage[scale=0.7,margin=0.5in]{geometry}
+\usepackage{lmodern}
 
 \name{Renjie}{Zhou}
 \email{rzhou10@gmail.com}
@@ -30,7 +31,21 @@
 }
 
 \section{Work Experience}
-\cventry{Jul 2019 - Present}{Software Developer}{Sphere Technology Solutions}{Hoboken, NJ}{}{
+
+\cventry{Sept 2022 - Present}{Software Engineer}{Shoppable\textregistered}{New York, NY}{}{
+    \begin{itemize}
+        \item Added Solr integrations to Shoppable's in-house ORM
+        \item Refactored projects to remove unused npm packages and clean up code base
+\end{itemize}}
+\cventry{Jun 2021 - Sept 2022}{Junior Software Engineer}{Shoppable\textregistered}{New York, NY}{}{
+    \begin{itemize}
+        \item Created builders for DTC and InstantShop to let users customize the look and layouts.
+        \item Created an interface to allow the user to change details about specific products
+        \item Refactored the code base for DTC to follow better React practices, resulting in a better performance and smaller code base
+        \item Designed and built an admin interface to allow internal employees to manage information about merchants and customers
+\end{itemize}}
+
+\cventry{Jul 2019 - May 2021}{Software Developer}{Sphere Technology Solutions}{Hoboken, NJ}{}{
     \begin{itemize}
         \item Fixed UI bugs on Sphereboard to fix broken functionality, and changed stored procedure logic to return accurate information.
         \item Added new features to improve usability, such as the violation work table and the suspected admin finder.
@@ -58,14 +73,6 @@
     \item Aided the supervisor with personal tasks, such as delivering items between his apartment and his office.
 \end{itemize}}
 
-\cventry{Jun 2014 - Aug 2014}{Information Technology Services Summer Intern}{The Lawrenceville School}{Lawrenceville, NJ}{}{
-    \begin{itemize}
-        \item Set up computers for general usage and added new software.
-        \item Tested and reported on status of various equipment around campus.
-        \item Assisted with setup of equipment training of participants in different summer program participants.
-        \item Completed administrative tasks such as document scanning, and organizing computer lab spaces.
-\end{itemize}}
-
 \section{Projects}
 \cvitem{\href{https://github.com/chloequinto/SSW_555_Project}{\textbf{GEDCOM (genealogical data) parser}}}{
     A \textbf{Python} GEDCOM file parser to display information about a family tree, such as living people, and catch errors, such as incorrect dates.
@@ -76,13 +83,10 @@
 \cvitem{\href{https://github.com/rzhou10/Boss-Fight}{\textbf{Boss Fight}}}{
     A \textbf{Java} turn based game where one fights 7 bosses in a row. 
 }
-\cvitem{\href{https://github.com/rzhou10/Movie-Data-Python}{\textbf{Movie Data}}}{
-    A \textbf{Python} program to collect statistics about movies that I have watched, such as average run time and box office. 
-}
 
 \section{Skills}
-\cvitem{Languages}{C\#, CSS, HTML, Java, JavaScript, Python, SQL}
-\cvitem{Tools/Technology}{Git, Jenkins, Jira, LaTeX, Ubuntu, Visual Studio, Visual Studio Code, Windows}
-\cvitem{Web Tools}{ASP.NET, Express.js, Node.js, React.js, Vue.js}
+\cvitem{Languages}{CSS, HTML, JavaScript, Python}
+\cvitem{Tools/Technology}{Git, Google Cloud, Jira, MongoDb, LaTeX, Ubuntu, Visual Studio Code, Webstorm IDE}
+\cvitem{Web Tools}{Bootstrap, Express.js, Node.js, React.js, Vue.js}
 
 \end{document}
