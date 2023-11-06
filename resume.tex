@@ -20,45 +20,35 @@
 %change width of \cventry year
 \sethintscolumntowidth{mmm yyyy -- mmm y}
 
-\section{Education}
-\cventry{Aug 2014 - May 2019}{B.E. Computer Engineering}{Stevens Institute of Technology}{Hoboken, NJ}{}{
-	\begin{itemize}
-        \item IEEE student branch
-        \item Stevens Computer Science Club (SCSC)
-        \item Society of Asian Scientists and Engineers (SASE)
-        \item Filipino Association of Stevens Tech (FAST)
-	\end{itemize}
-}
-
 \section{Work Experience}
 
-\cventry{Sept 2022 - Present}{Software Engineer}{Shoppable\textregistered}{New York, NY}{}{
+\cventry{Sept 2022 - Oct 2023}{Software Engineer}{Shoppable\textregistered}{New York, NY}{}{
     \begin{itemize}
-        \item Redesigned the dashboard to handle Google Analytics 4 and reduce unnecessary information
-        \item Refactored projects to remove unused npm packages and clean up code base
-        \item Redesigned the Shoppable\textregistered Ad Experience to use Handlebars.js to reduce load times and to integrate the DTC checkout experience
-        \item Created an endpoint to allow users to programmatically conduct checkouts for greater flexibility in integrating with Shoppable
+        \item Redesigned the dashboard in \textbf{React}/\textbf{CSS}/\textbf{Node.js} to handle Google Analytics 4 and reduce unnecessary information
+        \item Redesigned the Ad Experience to use \textbf{Handlebars.js}/\textbf{CSS} to reduce load times by about 90\% and to integrate the DTC checkout experience
+        \item Created a REST API in \textbf{Node.js} to allow users to programmatically conduct checkouts for greater flexibility in integrating with Shoppable
+        \item Refactored all \textbf{React} projects to dynamically handle different localizations
 \end{itemize}}
 \cventry{Jul 2021 - Sept 2022}{Junior Software Engineer}{Shoppable\textregistered}{New York, NY}{}{
     \begin{itemize}
-        \item Created builders for DTC and InstantShop to let users customize the look and layouts.
-        \item Created an interface to allow the user to change details about specific products
-        \item Refactored the code base for DTC to follow better React practices, resulting in a better performance and smaller code base
-        \item Designed and built an admin interface to allow internal employees to manage information about merchants and customers
+        \item Created builders for DTC and InstantShop with \textbf{React}/\textbf{CSS}/\textbf{Node}/\textbf{MongoDb} to let users save their customization for the cart and shop layouts.
+        \item Created an interface \textbf{React}/\textbf{CSS}/\textbf{Node}/\textbf{MongoDb}  to allow the user to save customized details about specific products
+        \item Refactored the code base for DTC to follow better \textbf{React} practices, reducing the code base by about 15\% and improving performance by about 20\%
+        \item Designed and built an admin interface in \textbf{React}/\textbf{CSS}/\textbf{Node}/\textbf{MongoDb} to allow internal employees to manage information about merchants and customers
 \end{itemize}}
 
 \cventry{Jul 2019 - May 2021}{Software Developer}{Sphere Technology Solutions}{Hoboken, NJ}{}{
     \begin{itemize}
-        \item Fixed UI bugs on Sphereboard to fix broken functionality, and changed stored procedure logic to return accurate information.
-        \item Added new features to improve usability, such as the violation work table and the suspected admin finder.
-        \item Modified the Connectors and Ingestor to collect/process additional information about files and folders, and to improve stability.
+        \item Fixed UI bugs on Sphereboard in \textbf{Vue.js} to fix broken functionality, and changed \textbf{SQL} stored procedure logic to return accurate information.
+        \item Added new features in \textbf{Vue.js}/\textbf{ASP.NET}/\textbf{SQL Server} to improve usability, such as the violation work table and the suspected admin finder.
+        \item Modified the Connectors and Ingestor in \textbf{C\#} to collect/process additional information about files and folders, and to improve stability.
 \end{itemize}
 }
 \cventry{Jun 2018 - Aug 2018}{Intern}{MedAZ.net}{West Windsor, NJ}{}{
     \begin{itemize}
-        \item Built RESTful APIs to dynamically retrieve and update website data.  
+        \item Built RESTful APIs in \textbf{C\#} to dynamically retrieve and update website data.  
         \item Utilized OATH authentication to allow password-less login via external services such as Facebook or Google.
-        \item Sped up database access by replacing the previous Entity Framework with the faster Dapper ORM library.
+        \item Sped up \textbf{SQL Server} access by replacing the previous Entity Framework with the faster Dapper ORM library.
 \end{itemize}}
 
 \cventry{Jul 2017 - Aug 2017}{Developer Intern}{MedAZ.net}{Princeton Junction, NJ}{}{
@@ -68,27 +58,23 @@
         \item Added functionalities such as a contact form, and a new service page.
 \end{itemize}}
 
-\cventry{Nov 2015 - May 2018}{Publication Assistant}{Stevens Physics Department}{Hoboken, NJ}{}{
-    \begin{itemize}
-    \item Transcribed supervisor's research papers in LaTeX in preparation for publication.
-    \item Retrieved articles from journal publications for supervisor's collection.
-    \item Aided the supervisor with personal tasks, such as delivering items between his apartment and his office.
-\end{itemize}}
+\section{Education}
+\cventry{Aug 2014 - May 2019}{B.E. Computer Engineering}{Stevens Institute of Technology}{Hoboken, NJ}{}{}
 
 \section{Projects}
 \cvitem{\href{https://github.com/chloequinto/SSW_555_Project}{\textbf{GEDCOM (genealogical data) parser}}}{
     A \textbf{Python} GEDCOM file parser to display information about a family tree, such as living people, and catch errors, such as incorrect dates.
 }
 \cvitem{\href{https://github.com/rzhou10/Music-Search-and-Recommendation}{\textbf{Music Search and Recommendation}}}{
-    A \textbf{JavaScript} web app to find songs based on user defined query (title, artist, etc).
+    A \textbf{Node.js} web app to find songs based on user defined query (title, artist, etc).
 }
 \cvitem{\href{https://github.com/rzhou10/Boss-Fight}{\textbf{Boss Fight}}}{
     A \textbf{Java} turn based game where one fights 7 bosses in a row. 
 }
 
 \section{Skills}
-\cvitem{Languages}{CSS, HTML, JavaScript, Python}
-\cvitem{Tools/Technology}{Git, Google Cloud, Jira, MongoDb, LaTeX, Ubuntu, Visual Studio Code, Webstorm IDE}
-\cvitem{Web Tools}{Bootstrap, Express.js, Node.js, React.js, Vue.js}
+\cvitem{Programming Languages}{C\#, CSS, HTML, JavaScript, Python, SQL}
+\cvitem{Libraries/Frameworks}{Bootstrap, Express.js, Node.js, React.js, Vue.js}
+\cvitem{Miscellanous Tools}{Git, Google Cloud, MongoDb}
 
 \end{document}
